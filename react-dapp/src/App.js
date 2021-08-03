@@ -5,8 +5,8 @@ import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 
 //the contract address
 //on localhost: 0x5fbdb2315678afecb367f032d93f642f64180aa3
-//on 
-const mycontractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+//on ropsten: 0xD260d1D5f5b469EcF04018A8133e159B0f380bB8 
+const mycontractAddress = "0xD260d1D5f5b469EcF04018A8133e159B0f380bB8";
 
 function App() {
   const [greetingSet, setGreetingVal] = useState('');

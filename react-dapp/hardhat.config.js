@@ -27,7 +27,12 @@ module.exports = {
     //the localhost
     hardhat:{
       chainId: 1337,
-    }
-  },
+    },    
+    // ropsten
+    ropsten: {
+      url: "https://ropsten.infura.io/v3/"+process.env.PROJECT_ID,
+      accounts: [process.env.ACCOUNT_KEY]
+    }, 
+ },
 
 };
